@@ -9,6 +9,10 @@ This project is an AI-powered knowledge base assistant that allows users to uplo
 - Rate-limited LLM calls
 - Local embeddings (no embedding API cost)
 - Streamlit-based UI
+  
+<img width="1360" height="906" alt="image" src="https://github.com/user-attachments/assets/6fe24b53-ac04-4a15-ba96-b942d0bffca3" />
+
+Demo: https://github.com/user-attachments/assets/1d4ec67c-373c-4428-8402-d54b91766a85
 
 ## Tech Stack
 - Python
@@ -27,3 +31,4 @@ This project is an AI-powered knowledge base assistant that allows users to uplo
 ## Notes
 - API calls are throttled to respect free-tier limits
 - The system avoids hallucinations by answering only from retrieved context
+
