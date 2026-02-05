@@ -2,23 +2,24 @@
 streamlit==1.32.2
 python-dotenv==1.0.1
 
-# LangChain (legacy but stable)
+# LangChain (stable legacy stack)
 langchain==0.0.353
 langchain-community==0.0.20
 langchain-google-genai==0.0.6
 
-# Gemini SDK (COMPATIBLE)
+# Gemini (compatible)
 google-generativeai==0.3.2
-
-# Pydantic
-pydantic==1.10.13
 
 # Vector DB
 chromadb==0.4.24
 
-# Local embeddings
+# Embeddings
 sentence-transformers==2.2.2
 torch==2.0.1
 
-# CRITICAL FIX
-huggingface_hub<0.20
+# HARD PINS (critical)
+huggingface_hub==0.19.4
+transformers==4.17.0
+
+# Pydantic
+pydantic==1.10.13
