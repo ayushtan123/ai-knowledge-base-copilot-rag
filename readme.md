@@ -31,4 +31,6 @@ Demo: https://github.com/user-attachments/assets/1d4ec67c-373c-4428-8402-d54b917
 ## Notes
 - API calls are throttled to respect free-tier limits
 - The system avoids hallucinations by answering only from retrieved context
+- This project was an assignment for internship at Pluang (Feb 2026)
 
+venv\Scripts\activate
